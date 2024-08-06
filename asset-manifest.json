@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Watsatet/travelneverends/static/css/main.5b82f946.css",
-    "main.js": "/Watsatet/travelneverends/static/js/main.00f4a87a.js",
+    "main.js": "/Watsatet/travelneverends/static/js/main.d5a5df3c.js",
     "static/js/453.ee14c991.chunk.js": "/Watsatet/travelneverends/static/js/453.ee14c991.chunk.js",
     "static/media/three.png": "/Watsatet/travelneverends/static/media/three.174c50bd98c8ead52cda.png",
     "static/media/first.png": "/Watsatet/travelneverends/static/media/first.61f23b0a9c31e031f940.png",
@@ -13,11 +13,11 @@
     "static/media/slick.ttf": "/Watsatet/travelneverends/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Watsatet/travelneverends/static/media/slick.295183786cd8a1389865.woff",
     "main.5b82f946.css.map": "/Watsatet/travelneverends/static/css/main.5b82f946.css.map",
-    "main.00f4a87a.js.map": "/Watsatet/travelneverends/static/js/main.00f4a87a.js.map",
+    "main.d5a5df3c.js.map": "/Watsatet/travelneverends/static/js/main.d5a5df3c.js.map",
     "453.ee14c991.chunk.js.map": "/Watsatet/travelneverends/static/js/453.ee14c991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b82f946.css",
-    "static/js/main.00f4a87a.js"
+    "static/js/main.d5a5df3c.js"
   ]
 }
