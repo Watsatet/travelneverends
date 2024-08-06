@@ -11,7 +11,6 @@ import Home from './pages/Home';
 import Destinations from './pages/Destinations';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Booking from './pages/Booking';
 import SearchResults from './pages/SearchResults';
 
 const AppContainer = styled.div`
@@ -32,11 +31,11 @@ function App() {
         <Header />
         <Content>
           <Routes>
+            <Route path="/Watsatet/travelneverends" active element={<Home />} />
             <Route path="/" active element={<Home />} />
             <Route path="/destinations" element={<Destinations />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/booking" element={<Booking />} />
             <Route path="/search" element={<SearchResults />} />
           </Routes>
         </Content>

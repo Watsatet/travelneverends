@@ -1,6 +1,14 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import styled from 'styled-components';
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
+const BookingForm = styled.form`
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+`;
+
 
 const ContactSection = styled.div`
   max-width: 800px;
@@ -9,12 +17,6 @@ const ContactSection = styled.div`
   text-align: center;
 `;
 
-const ContactForm = styled.form`
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-bottom: 30px;
-`;
 
 const FormGroup = styled.div`
   margin-bottom: 15px;
@@ -38,7 +40,7 @@ const SocialIcon = styled.a`
 `;
 
 function Contact() {
-  const [result, setResult] = React.useState("");
+  const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -46,7 +48,7 @@ function Contact() {
     const formData = new FormData(event.target);
     // console.log(formData)
 
-    formData.append("access_key", "21dda683-5e72-4098-8963-7187b9851334");
+    formData.append("access_key", "e90a7f5e-7598-434f-a0d7-2c566502d494");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -63,42 +65,68 @@ function Contact() {
       setResult(data.message);
     }
   };
-  return (
-    <ContactSection>
+  return(
+    
+    <div className="container">
       <h2>Contact Us</h2>
-      <ContactForm onSubmit={onSubmit}>
+      <BookingForm onSubmit={onSubmit}>
         <FormGroup>
           <label htmlFor="name">Name</label>
-          <input type="text" id="name" name="name" className="form-control" required />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            className="form-control"
+            required
+          />
         </FormGroup>
         <FormGroup>
-          <label htmlFor="email">Email</label>
-          <input type="email" id="email" name="email" className="form-control" required />
+          <label htmlFor="phone">Phone No.</label>
+          <input
+            type="number"
+            id="phone"
+            name="phone"
+            className="form-control"
+            required
+          />
+        </FormGroup>
+        <FormGroup>
+          <label htmlFor="destination">Destination</label>
+          <input
+            type="text"
+            id="destination"
+            name="destination"
+            className="form-control"
+            required
+          />
         </FormGroup>
         <FormGroup>
           <label htmlFor="message">Message</label>
-          <textarea id="message" name="message" className="form-control" rows="5" required></textarea>
+          <textarea
+            id="message"
+            name="message"
+            className="form-control"
+            rows="4"
+          ></textarea>
         </FormGroup>
-        <button type="submit" className="btn btn-primary">Send Message</button>
-      </ContactForm>
-      <span>{result}</span>
-
+        <button type="submit" className="btn btn-primary">
+          Submit
+        </button>
+        <div className="d-flex justify-content-center">{result}</div>
+      </BookingForm>
+  <ContactSection>
       <h3>Follow Us</h3>
       <SocialIcons>
         <SocialIcon href="https://www.facebook.com/sharma.raghav25" target="_blank" aria-label="Facebook">
           <FaFacebook />
         </SocialIcon>
-        <SocialIcon href="https://www.instagram.com/sharma.raghav25/" target="_blank" aria-label="Instagram">
+        <SocialIcon href="https://www.instagram.com/travelneverendss/" target="_blank" aria-label="Instagram">
           <FaInstagram />
         </SocialIcon>
-        <SocialIcon href="https://twitter.com" target="_blank" aria-label="Twitter">
-          <FaTwitter />
-        </SocialIcon>
-        <SocialIcon href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-          <FaLinkedin />
-        </SocialIcon>
+        
       </SocialIcons>
     </ContactSection>
+    </div>
   );
 }
 

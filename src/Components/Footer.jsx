@@ -12,7 +12,7 @@ const StyledFooter = styled.footer`
 function Footer() {
   return (
     <StyledFooter>
-      <p>&copy; 2024 Travel Website. All Rights Reserved.</p>
+      <p>&copy; 2024 Travel Never End. All Rights Reserved.</p>
     </StyledFooter>
   );
 }
