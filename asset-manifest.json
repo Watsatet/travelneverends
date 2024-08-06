@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Watsatet/travelneverends/static/css/main.9f986764.css",
-    "main.js": "/Watsatet/travelneverends/static/js/main.f38048f0.js",
-    "static/js/453.ee14c991.chunk.js": "/Watsatet/travelneverends/static/js/453.ee14c991.chunk.js",
-    "static/media/three.png": "/Watsatet/travelneverends/static/media/three.174c50bd98c8ead52cda.png",
-    "static/media/first.png": "/Watsatet/travelneverends/static/media/first.61f23b0a9c31e031f940.png",
-    "static/media/second.png": "/Watsatet/travelneverends/static/media/second.3223d14e334d4d2593b6.png",
-    "static/media/logo.png": "/Watsatet/travelneverends/static/media/logo.b3d359ee433a0d9785af.png",
-    "static/media/slick.svg": "/Watsatet/travelneverends/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/Watsatet/travelneverends/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "index.html": "/Watsatet/travelneverends/index.html",
-    "static/media/slick.ttf": "/Watsatet/travelneverends/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/Watsatet/travelneverends/static/media/slick.295183786cd8a1389865.woff",
-    "main.9f986764.css.map": "/Watsatet/travelneverends/static/css/main.9f986764.css.map",
-    "main.f38048f0.js.map": "/Watsatet/travelneverends/static/js/main.f38048f0.js.map",
-    "453.ee14c991.chunk.js.map": "/Watsatet/travelneverends/static/js/453.ee14c991.chunk.js.map"
+    "main.css": "/travelneverends/static/css/main.1b1c4e95.css",
+    "main.js": "/travelneverends/static/js/main.271d48e0.js",
+    "static/js/453.ee14c991.chunk.js": "/travelneverends/static/js/453.ee14c991.chunk.js",
+    "static/media/three.png": "/travelneverends/static/media/three.174c50bd98c8ead52cda.png",
+    "static/media/first.png": "/travelneverends/static/media/first.61f23b0a9c31e031f940.png",
+    "static/media/second.png": "/travelneverends/static/media/second.3223d14e334d4d2593b6.png",
+    "static/media/logo.png": "/travelneverends/static/media/logo.b3d359ee433a0d9785af.png",
+    "static/media/slick.svg": "/travelneverends/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/travelneverends/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/travelneverends/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/travelneverends/index.html",
+    "static/media/slick.woff": "/travelneverends/static/media/slick.295183786cd8a1389865.woff",
+    "main.1b1c4e95.css.map": "/travelneverends/static/css/main.1b1c4e95.css.map",
+    "main.271d48e0.js.map": "/travelneverends/static/js/main.271d48e0.js.map",
+    "453.ee14c991.chunk.js.map": "/travelneverends/static/js/453.ee14c991.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f986764.css",
-    "static/js/main.f38048f0.js"
+    "static/css/main.1b1c4e95.css",
+    "static/js/main.271d48e0.js"
   ]
 }
